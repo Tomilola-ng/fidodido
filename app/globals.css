@@ -2,32 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .maxContainer {
+    @apply mx-auto max-w-[1200px];
+  }
+  .flexBetween {
+    @apply flex justify-between items-center;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .pSm {
+    @apply px-3 md:px-12;
+  }
+  .textBg {
+    @apply bg-primary text-white;
+  }
+  .title {
+    @apply text-xl md:text-2xl font-bold cursor-pointer block mt-4 leading-5;
+  }
+  .detailTitle {
+    @apply text-xl md:text-4xl font-semibold md:font-extrabold cursor-pointer block mt-4 leading-5;
+  }
+  .subTitle {
+    @apply text-base font-bold cursor-pointer block md:leading-[1.1] leading-snug;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #FB5607;
+  border-radius: 50rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FB5607;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.fadeIn {
+  animation: anim_fade_in 250ms ease-in;
+}
+
+@keyframes anim_fade_in {
+  from {
+    opacity: 0.5;
+    margin-left: 2rem;
   }
 }
