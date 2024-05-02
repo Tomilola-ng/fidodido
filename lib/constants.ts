@@ -1,8 +1,8 @@
 export const MENU_LINKS = [
-  { url: "", label: "For Sale" },
-  { url: "", label: "For Rent" },
-  { url: "", label: "For Lease" },
-  { url: "", label: "Consulting" },
+  { url: "", label: "Our Experience" },
+  { url: "", label: "About Us" },
+  { url: "", label: "YouTube Courses" },
+  { url: "", label: "Book a Meeting", extra: true },
 ];
 
 //
