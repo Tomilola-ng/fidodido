@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="h-16 pSm py-3 border-b border-primary bg-light fixed top-0 left-0 w-full flexBetween">
+      <header className="h-16 pSm py-3 border-b border-primary bg-white fixed top-0 left-0 w-full flexBetween">
         <Logo />
 
         <MenuSquareIcon
