@@ -25,7 +25,7 @@ export default function Header() {
           size={28}
         />
 
-        <div className="w-[32rem] hidden md:flexBetween">
+        <div className="w-[30rem] hidden md:flexBetween">
           {MENU_LINKS.map((item) => (
             <MenuLink key={item.url} {...item} />
           ))}

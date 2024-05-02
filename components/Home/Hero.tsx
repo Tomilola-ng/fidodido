@@ -5,7 +5,7 @@ import fidoGirl from "/public/character.png";
 
 export default function Hero() {
   return (
-    <section className="grid md:grid-cols-2 gap-8 items-center w-full max-w-screen-md mx-auto mt-6">
+    <section className="grid md:grid-cols-2 gap-8 items-center w-full max-w-screen-md mx-auto my-6">
       <div className="gap-y-4 flexCenter md:block flex-col">
         <h1 className="text-3xl md:text-4xl font-bold text-balance leading-8 text-center md:text-left">
           We are the business associate you need.
