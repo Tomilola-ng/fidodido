@@ -8,9 +8,9 @@ export default function Footer() {
       role="navigation"
       className="w-full bg-neutral-900 py-8 md:px-8 mt-6 text-neutral-100"
     >
-      <div className="maxContainer grid md:grid-cols-3 gap-y-6 pSm">
+      <div className="maxContainer grid md:grid-cols-3 gap-y-6 gap-x-4 pSm">
         <Logo />
-        <div className="flex flex-col gap-2 text-sm">
+        <div className="flex flex-col gap-y-2 text-sm">
           <b>Company</b>
           FIDO is a leading provider of innovative solutions tailored to meet
           the unique needs of startups and small businesses.
