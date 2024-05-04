@@ -8,8 +8,15 @@ import Footer from "@/components/Footer";
 const myFont = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fido",
-  description: "The Business Associate you need",
+  title: "Fido - The Business Associate you need;",
+  description:
+    "FIDO is a leading provider of innovative solutions tailored to meet the unique needs of startups and small businesses",
+  openGraph: {
+    images: ["/public/fido-icon.png"],
+    title: "Fido - The Business Associate you need",
+    description:
+      "FIDO is a leading provider of innovative solutions tailored to meet the unique needs of startups and small businesses",
+  },
 };
 
 export default function RootLayout({
