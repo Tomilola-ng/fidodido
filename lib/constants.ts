@@ -11,33 +11,33 @@ export const MENU_LINKS = [
 
 export const BENEFITS = [
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "DigitalBoost",
+    desc: "DigitalBoost is a comprehensive digital marketing solution designed to turbocharge your online presence and drive growth. ",
     icon: "BookIcon",
   },
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "TalentHub",
+    desc: "TalentHub is your all-in-one solution for seamless recruitment and personnel management.",
     icon: "ScaleIcon",
   },
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "WebWorks",
+    desc: "WebWorks is a comprehensive suite of web services designed to elevate your online presence and enhance user experience.",
     icon: "GlobeIcon",
   },
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "SkillForge",
+    desc: "SkillForge offers industry-leading training programs designed to empower individuals and organizations with the skills and knowledge needed to succeed in today's competitive landscape.",
     icon: "BookIcon",
   },
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "CloudBooks",
+    desc: "CloudBooks revolutionizes the way businesses manage their finances by offering cloudbased accounting services that are efficient, secure, and scalable.",
     icon: "ScaleIcon",
   },
   {
-    heading: "Lorem ipsum dolor sit amet.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique reiciendis deleniti sed est laudantium, nihil numquam ipsam consectetur facere iure. Dolorum ab architecto quisquam laudantium placeat eligendi, assumenda laborum?",
+    heading: "SeedConnect",
+    desc: "SeedConnect is your gateway to unlocking funding opportunities and accelerating the growth of your startup.",
     icon: "GlobeIcon",
   },
 ];
