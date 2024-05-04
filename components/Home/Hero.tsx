@@ -1,7 +1,7 @@
 import Image from "next/image";
 import LinkBtn from "../reusables/LinkBtn";
 
-import fidoGirl from "/public/character.png";
+import fidoGuy from "/public/character.webp";
 
 export default function Hero() {
   return (
@@ -14,10 +14,13 @@ export default function Hero() {
           We help you take care of your business Legals, Accounts, Marketing and
           Even Technical product development
         </p>
-        <LinkBtn msg="Book a Session" url="/" />
+        <LinkBtn
+          msg="Book a Session"
+          url="https://calendly.com/fidoafrica/consultation"
+        />
       </div>
       <div className="">
-        <Image src={fidoGirl} alt="FIDO GIRL" />
+        <Image src={fidoGuy} alt="FIDO DIDO" />
       </div>
     </section>
   );

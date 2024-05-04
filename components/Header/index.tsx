@@ -12,11 +12,11 @@ import { MENU_LINKS } from "@/lib/constants";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleOpen = () => setIsOpen(!open);
+  const toggleOpen = () => setIsOpen(!isOpen);
 
   return (
     <>
-      <header className="h-16 pSm py-3 border-b border-primary bg-white fixed top-0 left-0 w-full flexBetween">
+      <header className="h-16 pSm py-3 border-b border-primary bg-white fixed top-0 left-0 w-full flexBetween z-10">
         <Logo />
 
         <MenuSquareIcon
@@ -30,10 +30,10 @@ export default function Header() {
             <MenuLink key={item.url} {...item} />
           ))}
         </div>
-      </header>
 
+        {isOpen && <Navbar MENU_LINKS={MENU_LINKS} />}
+      </header>
       <div className="h-16 w-full" />
-      {isOpen && <Navbar MENU_LINKS={MENU_LINKS} />}
       <div id="gap" className="h-4 w-full" />
     </>
   );
