@@ -13,12 +13,12 @@ export const BENEFITS = [
   {
     heading: "DigitalBoost",
     desc: "DigitalBoost is a comprehensive digital marketing solution designed to turbocharge your online presence and drive growth. ",
-    icon: "BookIcon",
+    icon: "ZapIcon",
   },
   {
     heading: "TalentHub",
     desc: "TalentHub is your all-in-one solution for seamless recruitment and personnel management.",
-    icon: "ScaleIcon",
+    icon: "UsersRoundIcon",
   },
   {
     heading: "WebWorks",
@@ -28,17 +28,17 @@ export const BENEFITS = [
   {
     heading: "SkillForge",
     desc: "SkillForge offers industry-leading training programs designed to empower individuals and organizations with the skills and knowledge needed to succeed in today's competitive landscape.",
-    icon: "BookIcon",
+    icon: "UnPlugIcon",
   },
   {
     heading: "CloudBooks",
     desc: "CloudBooks revolutionizes the way businesses manage their finances by offering cloudbased accounting services that are efficient, secure, and scalable.",
-    icon: "ScaleIcon",
+    icon: "BookIcon",
   },
   {
     heading: "SeedConnect",
     desc: "SeedConnect is your gateway to unlocking funding opportunities and accelerating the growth of your startup.",
-    icon: "GlobeIcon",
+    icon: "SendIcon",
   },
 ];
 
