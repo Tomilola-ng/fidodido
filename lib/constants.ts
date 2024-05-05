@@ -15,11 +15,11 @@ export const BENEFITS = [
     desc: "DigitalBoost is a comprehensive digital marketing solution designed to turbocharge your online presence and drive growth. ",
     icon: "ZapIcon",
   },
-  {
-    heading: "TalentHub",
-    desc: "TalentHub is your all-in-one solution for seamless recruitment and personnel management.",
-    icon: "UsersRoundIcon",
-  },
+  // {
+  //   heading: "TalentHub",
+  //   desc: "TalentHub is your all-in-one solution for seamless recruitment and personnel management.",
+  //   icon: "UsersRoundIcon",
+  // },
   {
     heading: "WebWorks",
     desc: "WebWorks is a comprehensive suite of web services designed to elevate your online presence and enhance user experience.",
