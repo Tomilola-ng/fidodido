@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "FIDO is a leading provider of innovative solutions tailored to meet the unique needs of startups and small businesses",
   openGraph: {
     images: [
-      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7cEuAwQ_5DwxSwDz2P4TnNT4M5Bv2zwSf6UPZW8ScVDjaNYUTorYoxMf5UfDCD7Wlb4ASeuPJ9A8Uug1-4k2lPO9R-rC89c_Yv4HP6f1Ac2rPGGw5INjIsyMLRKhqM1JUX8jgr17UosqTIfjRNLaBo6V2YobNCjJsZ_QGr2qTqQtp2ALuZf36VfS5Jw/s320/character.webp",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEhF4OQWGJua1ddk0WCVIjnstFWOHDUicMkDtVujmOgTpmrxrkqavkskXCRSNP3b1wBv-t0ZOxC-JSbtrC3kNcCQWYzQhNhP3zq0pBTEU5SsDPHIc0zMBEzNTbaB5AlYaeo_Sr01laTUKa3fYSKY_t6sxLU6D-jUMoqhfTZOY57hma4XSsaaKwTJfxQTEQ",
     ],
     title: "Fido - The Business Associate you need",
     description:
