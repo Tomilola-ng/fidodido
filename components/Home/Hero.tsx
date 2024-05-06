@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import LinkBtn from "../reusables/LinkBtn";
 
 import fidoGuy from "/public/character.webp";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -21,9 +24,19 @@ export default function Hero() {
           url="https://calendly.com/fidoafrica/consultation"
         />
       </div>
-      <div className="">
-        <Image src={fidoGuy} alt="FIDO DIDO" />
-      </div>
+      <AnimatePresence>
+        <motion.div
+          initial={{ y: 100, opacity: 0, rotate: 20 }}
+          animate={{ y: 0, opacity: 100, rotate: 0 }}
+          transition={{
+            duration: 0.7,
+            ease: "easeIn",
+          }}
+          className=""
+        >
+          <Image src={fidoGuy} alt="FIDO DIDO" />
+        </motion.div>
+      </AnimatePresence>
     </section>
   );
 }

@@ -12,11 +12,13 @@
     "@apollo/client": "^3.10.1",
     "@nextjspro/analytics": "^1.0.1",
     "date-fns": "^3.6.0",
+    "framer-motion": "^11.1.7",
     "lucide-react": "^0.377.0",
     "next": "14.3.0-canary.9",
     "next-themes": "^0.3.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.10.2"
   },
   "devDependencies": {
     "@types/node": "^20",
