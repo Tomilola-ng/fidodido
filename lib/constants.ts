@@ -54,13 +54,15 @@ export const REVIEWS = [
       "It's the team work for me, I really like the communication and how I was addressed.",
     image:
       "https://media.licdn.com/dms/image/D4D03AQFOz5eDeQEE0g/profile-displayphoto-shrink_400_400/0/1706475139497?e=1720051200&v=beta&t=CXocEzp-GOD43zvOkmXK5GGPh3pARUHPmkYP9TPhf4g",
+    company: "GroubyNG",
   },
   {
-    name: "Rahmat Temiyemi Arike",
+    name: "Blessing Alex",
     comment:
       "A free consultation with the team, was the starting point of profit for me and my business",
     image:
-      "https://media.licdn.com/dms/image/D4E35AQHz_pJK8YI9DA/profile-framedphoto-shrink_400_400/0/1705492238485?e=1715360400&v=beta&t=oiZbo_R35M-jvbQx5apYN0oxZcfdCWF33hK973C_tK0",
+      "https://img.freepik.com/free-photo/smiley-woman-holding-her-luggage_23-2148677886.jpg",
+    company: "Poli Fashion",
   },
   {
     name: "Elijah Dias.",
@@ -68,5 +70,6 @@ export const REVIEWS = [
       "I like the Quick and efficient methods to getting started with social media marketing for my business",
     image:
       "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0JTIwYmxhY2slMjBnaXJsfGVufDB8fDB8fHwy",
+    company: "FX Prime",
   },
 ];
