@@ -40,6 +40,11 @@ export const BENEFITS = [
     desc: "SeedConnect is your gateway to unlocking funding opportunities and accelerating the growth of your startup.",
     icon: "SendIcon",
   },
+  {
+    heading: "StartupPro",
+    desc: "StartupPro is a comprehensive business process management solution tailored specifically for startups, offering end-to-end support for every stage of your entrepreneurial journey.",
+    icon: "UsersRoundIcon",
+  },
 ];
 
 export const REVIEWS = [
