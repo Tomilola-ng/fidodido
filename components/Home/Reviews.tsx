@@ -17,7 +17,8 @@ export default function Reviews() {
               />
             </div>
             <b className="text-sm">{item.name}</b>
-            <i className="tex-primary">{item.company}</i>
+            <b className="px-2 text-sm">•</b>
+            <i className="tex-primary text-sm font-light"> {item.company}</i>
             <p className="text-xs font-light text-neutral-800 text-center md:text-left">
               {item.comment}
             </p>
