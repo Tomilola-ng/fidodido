@@ -7,7 +7,7 @@ export default function ShowCase() {
       <div className="grid md:grid-cols-2 gap-8 items-center w-full max-w-[850px] mx-auto my-6">
         <Image src={fidoGuy} alt="FIDO DIDO" className="constrast" />
         <div className="text-xl font-bold text-white">
-          We help you train your team into formidable workers, spanning
+          We help you train your team into formidable employees, spanning
           different business sectors.
         </div>
       </div>
