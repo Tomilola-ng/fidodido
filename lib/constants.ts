@@ -1,6 +1,7 @@
 export const MENU_LINKS = [
   { url: "/about-us", label: "About Us" },
   { url: "/services", label: "Services" },
+  { url: "/join-our-team", label: "Join Our Team" },
   { url: "https://startup-corner.blogspot.com/", label: "Blog" },
   {
     url: "https://calendly.com/fidoafrica/consultation",
