@@ -8,7 +8,7 @@ export default function JoinOurTeamPage() {
       <Image
         src={myImg}
         alt="we are hiring flyer post"
-        className="max-w-[640px] rounded-md"
+        className="max-w-[600px] rounded-lg"
       />
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdg6T7vQLVL2KToDyqv-D68Vh141dMzV8e8-gtYt3t8XLZ97g/viewform?embedded=true"
