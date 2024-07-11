@@ -53,7 +53,7 @@ export const REVIEWS = [
     comment:
       "It's the team work for me, I really like the communication and how I was addressed.",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQFOz5eDeQEE0g/profile-displayphoto-shrink_400_400/0/1706475139497?e=1720051200&v=beta&t=CXocEzp-GOD43zvOkmXK5GGPh3pARUHPmkYP9TPhf4g",
+      "https://media.licdn.com/dms/image/D4D03AQFOz5eDeQEE0g/profile-displayphoto-shrink_400_400/0/1706475139497?e=1726099200&v=beta&t=pRM_2d2zh2W-y4HjKYI2JQvtE1O6drZLbpgxpSXyvUY",
     company: "GroubyNG",
   },
   {
