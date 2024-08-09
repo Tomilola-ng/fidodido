@@ -13,7 +13,7 @@ export default function JoinOurTeamPage() {
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdg6T7vQLVL2KToDyqv-D68Vh141dMzV8e8-gtYt3t8XLZ97g/viewform?embedded=true"
         width="640"
-        height="1624"
+        height="1800"
       >
         FIDO
       </iframe>
